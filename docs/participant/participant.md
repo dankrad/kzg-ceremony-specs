@@ -69,7 +69,7 @@ def subgroup_checks(batch_contribution: BatchContribution) -> bool:
 
 ### Updating the contribution file
 
-Once the participant has fetched the `contribution.json` file, for each of the `Contributions`s within they MUST perform the following actions:
+Once the participant has fetched the `contribution.json` file, for each of the `Contribution`s within they MUST perform the following actions:
 
 - Generate the secrets:
     - Sample a secret `x` from their CSPRNG as per Generating randomness above
